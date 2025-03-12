@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        A.datos();
+        A.datos("Juan Perez", 45, 50000);
         A.mostrar();
 
         B b = new B();
