@@ -1,0 +1,25 @@
+public class B {
+
+    /**
+     * Calcula el bono de una person según su edad y salario.
+     * @return bono calculado
+     */
+
+    public double calcularBono{
+        double bono = 0;
+        if(A.getedad() > 50){
+            bono = A.getsalario() * 0.10;
+        } else {
+            bono = A.getsalario() * 0.05;
+        }
+
+    }
+
+    /**
+	 * Muestra el bono calculado.
+     */
+    
+    public void mostrarBono() {
+        System.out.println("Bono: " + calcularBono());
+    }
+}
