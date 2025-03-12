@@ -14,4 +14,12 @@ public class B {
         }
 
     }
+
+    /**
+	 * Muestra el bono calculado.
+     */
+    
+    public void mostrarBono() {
+        System.out.println("Bono: " + calcularBono());
+    }
 }
