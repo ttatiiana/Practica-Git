@@ -1,0 +1,19 @@
+public class C {
+
+    /**
+     * Devuelve un saludo personalizado según la edad.
+     * @return mensaje.
+     */
+
+    public String imprimirSaludo(){
+        String saludo;
+        if (A.getedad() < 18) {
+            System.out.println("Hola, joven " + A.getnombre());
+        } else {
+            System.out.println("Hola, señor/a " + A.getnombre());
+        }
+
+    }
+
+
+}
