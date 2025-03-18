@@ -1,4 +1,10 @@
 public class Bono {
+    
+    private Persona persona;
+
+    public Bono(Persona persona) {
+        this.persona = persona;
+    }
 
     /**
      * Calcula el bono de una persona según su edad y salario.
@@ -7,10 +13,10 @@ public class Bono {
 
     public double calcularBono{
         double bono = 0;
-        if(Persona.getedad() > 50){
-            bono = Persona.getsalario() * 0.10;
+        if(Persona.getEdad() > 50){
+            bono = Persona.getSalario() * 0.10;
         } else {
-            bono = Persona.getsalario() * 0.05;
+            bono = Persona.getSalario() * 0.05;
         }
 
     }

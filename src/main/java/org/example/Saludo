@@ -7,10 +7,10 @@ public class Saludo {
 
     public String imprimirSaludo(){
         String saludo;
-        if (Persona.getedad() < 18) {
-            System.out.println("Hola, joven " + Persona.getnombre());
+        if (Persona.getEdad() < 18) {
+            System.out.println("Hola, joven " + Persona.getNombre());
         } else {
-            System.out.println("Hola, señor/a " + Persona.getnombre());
+            System.out.println("Hola, señor/a " + Persona.getNombre());
         }
 
     }

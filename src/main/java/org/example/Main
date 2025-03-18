@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Persona.datos("Juan Perez", 45, 50000);
-        Persona.mostrar();
 
-        Bono bono = new Bono();
-        Bono.calcularBono();
+        Persona persona = new Persona ("Juan Perez", 45, 50000);
+        persona.mostrar();
 
-        Saludo saludo = new C();
+        double bono = Bono.CalcularBono(persona.getEdad(),perosna.getSalario());
+        System.out.println("Bono calculado: " + bono);
+
         Saludo.imprimirSaludo();
     }
 
