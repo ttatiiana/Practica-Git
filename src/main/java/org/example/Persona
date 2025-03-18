@@ -1,0 +1,40 @@
+public class Persona {
+    private static String nombre = "SinNombre";
+    private static int edad = 0;
+    private static double salario = 0.0;
+
+    public static String getNombre() {
+        return nombre;
+    }
+        
+    public static int getEdad() {
+        return edad;
+    }
+        
+    public static double getSalario() {
+        return salario;
+    }
+
+    /**
+     * Método para establecer los datos de la persona.
+     * @param n Nombre de la persona.
+     * @param e Edad de la persona.
+     * @param s Salario de la persona.
+     */
+
+    static void datos(String n, int e, double s) {
+        nombre = n;
+        edad = e;
+        salario = s;
+    }
+
+    /**
+     * Muestra los datos de la persona.
+     */
+
+    static void mostrar() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+        System.out.println("Salario: " + salario);
+    }
+}

@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        A.datos("Juan Perez", 45, 50000);
-        A.mostrar();
+        Persona.datos("Juan Perez", 45, 50000);
+        Persona.mostrar();
 
-        B b = new B();
-        b.calcularBono();
+        Bono bono = new Bono();
+        Bono.calcularBono();
 
-        C c = new C();
-        c.imprimirSaludo();
+        Saludo saludo = new C();
+        Saludo.imprimirSaludo();
     }
 
 }
